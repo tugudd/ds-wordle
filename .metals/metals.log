@@ -1,0 +1,35 @@
+2023.12.09 16:22:38 INFO  Started: Metals version 1.1.0 in folders '/Users/kambarmirmanov/wordl/ds-score-storage' for client Visual Studio Code 1.84.2.
+2023.12.09 16:22:38 WARN  Build server is not auto-connectable.
+2023.12.09 16:22:38 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+Dec 09, 2023 4:22:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2023.12.09 16:22:41 INFO  no build target found for /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.09 16:22:42 INFO  time: code lens generation in 3.84s
+2023.12.09 16:22:48 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:22:48 INFO  skipping build import with status 'Dismissed'
+2023.12.09 16:22:48 WARN  Could not find semantic tokens for: file:///Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:22:48 WARN  Could not find semantic tokens for: file:///Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.09 16:24:12 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:24:12 INFO  skipping build import with status 'Dismissed'
+2023.12.09 16:24:16 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/build.sbt
+2023.12.09 16:25:16 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/build.sbt
+2023.12.09 16:27:37 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:27:37 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+Dec 09, 2023 4:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+2023.12.09 16:27:37 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:27:37 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:28:00 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/build.sbt
+2023.12.09 16:28:00 INFO  skipping build import with status 'Dismissed'
+2023.12.09 16:29:27 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/Dependencies.scala
+2023.12.09 16:29:27 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala
+2023.12.09 16:30:12 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/Dependencies.scala
+2023.12.09 16:30:18 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/WordleApp.scala
+2023.12.09 16:31:13 WARN  no build target for: /Users/kambarmirmanov/wordl/ds-score-storage/build.sbt

@@ -1,0 +1,83 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/WordleApp.scala:6:8: object NodeManager is not a member of package com.wordledist.cluster[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.wordledist.cluster.{ClusterListener, NodeManager}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/WordleApp.scala:12:39: not found: value NodeManager[0m
+[0m[[0m[31merror[0m] [0m[0m    val system = ActorSystem[Nothing](NodeManager(), "WordleGameSystem", ConfigUtils.getAkkaConfig)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/ui/GameUI.scala:9:32: not found: type ActorRef[0m
+[0m[[0m[31merror[0m] [0m[0mclass GameUI(gameManagerActor: ActorRef[GameManager.GameCommand]) extends JFXApp {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:5:32: object GameMessages is not a member of package com.wordledist.messages[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.wordledist.messages.GameMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:9:25: not found: type GameCommand[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[GameCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:9:61: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[GameCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:9:70: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[GameCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:23:70: not found: type GameCommand[0m
+[0m[[0m[31merror[0m] [0m[0m                             guesses: mutable.Set[String]): Behavior[GameCommand] =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:21:50: not found: type WordCommand[0m
+[0m[[0m[31merror[0m] [0m[0m  private def gameInProgress(wordActor: ActorRef[WordCommand], [0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:22:57: not found: type PlayerCommand[0m
+[0m[[0m[31merror[0m] [0m[0m                             playerActors: Set[ActorRef[PlayerCommand]],[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:24:26: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m    Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/GameManager.scala:24:35: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m    Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/PlayerActor.scala:5:32: object GameMessages is not a member of package com.wordledist.messages[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.wordledist.messages.GameMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/PlayerActor.scala:10:75: not found: type PlayerCommand[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(player: Player, gameManager: ActorRef[GameCommand]): Behavior[PlayerCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/PlayerActor.scala:10:51: not found: type GameCommand[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(player: Player, gameManager: ActorRef[GameCommand]): Behavior[PlayerCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/PlayerActor.scala:10:113: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(player: Player, gameManager: ActorRef[GameCommand]): Behavior[PlayerCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/PlayerActor.scala:10:122: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(player: Player, gameManager: ActorRef[GameCommand]): Behavior[PlayerCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/WordActor.scala:6:32: object GameMessages is not a member of package com.wordledist.messages[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.wordledist.messages.GameMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/WordActor.scala:9:25: not found: type WordCommand[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[WordCommand] = Behaviors.setup { context =>[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/actors/WordActor.scala:9:58: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[WordCommand] = Behaviors.setup { context =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/cluster/NodeManager.scala:6:32: object GameMessages is not a member of package com.wordledist.messages[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.wordledist.messages.GameMessages._[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/cluster/NodeManager.scala:10:25: not found: type NodeCommand[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[NodeCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/cluster/NodeManager.scala:10:61: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[NodeCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/cluster/NodeManager.scala:10:70: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  def apply(): Behavior[NodeCommand] = Behaviors.receive { (context, message) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/ui/PlayerUI.scala:9:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Seq[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m required: scalafx.collections.ObservableBuffer[String][0m
+[0m[[0m[31merror[0m] [0m[0m    items = Seq()[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/src/main/scala/com/wordledist/ui/PlayerUI.scala:26:27: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Seq[String][0m
+[0m[[0m[31merror[0m] [0m[0m required: scalafx.collections.ObservableBuffer[String][0m
+[0m[[0m[31merror[0m] [0m[0m    playerGuesses.items = guesses[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m26 errors found[0m

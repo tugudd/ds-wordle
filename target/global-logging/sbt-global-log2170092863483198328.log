@@ -1,0 +1,99 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.9.7 (Homebrew Java 11.0.21)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 58.805208ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 41.858167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.124417ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/kambarmirmanov/wordl/ds-score-storage/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/kambarmirmanov/wordl/ds-score-storage/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 5.988292 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(ds-score-storage-build) took 23.179209ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id ds-score-storage-build, base: /Users/kambarmirmanov/wordl/ds-score-storage/project, plugins: List(<none>))) took 45.928625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/kambarmirmanov/wordl/ds-score-storage/project, returning: (ds-score-storage-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 54.22025ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.083791ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/Users/kambarmirmanov/wordl/ds-score-storage/project/, ...) took 98.179917ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 208.912041ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 2.763375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 26.301583ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 3.000833ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 187.299416ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 43.529333ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.679833ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /Users/kambarmirmanov/wordl/ds-score-storage/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/kambarmirmanov/wordl/ds-score-storage/project/target/scala-2.12/sbt-1.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:5:44: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaActorTyped = "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:6:46: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaClusterTyped = "com.typesafe.akka" %% "akka-cluster-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:7:46: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaClusterTools = "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:8:54: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaClusterShardingTyped = "com.typesafe.akka" %% "akka-cluster-sharding-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:9:50: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaPersistenceTyped = "com.typesafe.akka" %% "akka-persistence-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:10:54: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaSerializationJackson = "com.typesafe.akka" %% "akka-serialization-jackson" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:11:40: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaStream = "com.typesafe.akka" %% "akka-stream" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:12:39: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaSlf4j = "com.typesafe.akka" %% "akka-slf4j" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:13:51: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaActorTestkitTyped = "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:13:97: not found: value Test[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaActorTestkitTyped = "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:16:41: value % is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val logbackClassic = "ch.qos.logback" % "logback-classic" % logbackVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:17:38: value % is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val logbackCore = "ch.qos.logback" % "logback-core" % logbackVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:20:31: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val scalafx = "org.scalafx" %% "scalafx" % scalafxVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:23:30: value % is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val javafx = "org.openjfx" % "javafx" % javafxVersion % "provided"[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:26:35: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val scalatest = "org.scalatest" %% "scalatest" % scalatestVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:26:71: not found: value Test[0m
+[0m[[0m[31merror[0m] [0m[0m  val scalatest = "org.scalatest" %% "scalatest" % scalatestVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadFailed, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mProject loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m

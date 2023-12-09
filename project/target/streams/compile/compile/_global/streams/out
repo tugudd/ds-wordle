@@ -1,0 +1,49 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:5:44: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaActorTyped = "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:6:46: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaClusterTyped = "com.typesafe.akka" %% "akka-cluster-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:7:46: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaClusterTools = "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:8:54: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaClusterShardingTyped = "com.typesafe.akka" %% "akka-cluster-sharding-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:9:50: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaPersistenceTyped = "com.typesafe.akka" %% "akka-persistence-typed" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:10:54: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaSerializationJackson = "com.typesafe.akka" %% "akka-serialization-jackson" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:11:40: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaStream = "com.typesafe.akka" %% "akka-stream" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:12:39: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaSlf4j = "com.typesafe.akka" %% "akka-slf4j" % akkaVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:13:51: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaActorTestkitTyped = "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:13:97: not found: value Test[0m
+[0m[[0m[31merror[0m] [0m[0m  val akkaActorTestkitTyped = "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:16:41: value % is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val logbackClassic = "ch.qos.logback" % "logback-classic" % logbackVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:17:38: value % is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val logbackCore = "ch.qos.logback" % "logback-core" % logbackVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:20:31: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val scalafx = "org.scalafx" %% "scalafx" % scalafxVersion[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:23:30: value % is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val javafx = "org.openjfx" % "javafx" % javafxVersion % "provided"[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:26:35: value %% is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m  val scalatest = "org.scalatest" %% "scalatest" % scalatestVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/kambarmirmanov/wordl/ds-score-storage/project/Dependencies.scala:26:71: not found: value Test[0m
+[0m[[0m[31merror[0m] [0m[0m  val scalatest = "org.scalatest" %% "scalatest" % scalatestVersion % Test[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m
