@@ -6,6 +6,7 @@ sealed trait WordCommand
 sealed trait NodeCommand
 
 // Messages related to the game manager
+
 case class StartGame(players: Set[String]) extends GameCommand
 case class PlayerGuess(playerId: String, guess: String) extends GameCommand
 case class GuessResult(playerId: String, guess: String, result: Boolean) extends GameCommand

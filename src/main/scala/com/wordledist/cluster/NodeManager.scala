@@ -1,20 +1,20 @@
 package scala.com.wordledist.cluster
 
-import akka.actor.typed.{Behavior, ActorRef}
+import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.Behaviors
-import com.wordledist.actors.GameManager._
-import com.wordledist.messages.GameMessages._
+import com.wordledist.actors.GameManager
+import com.wordledist.messages.{CreateGame, NodeCommand, ShutdownNode, StartGame}
 
 
 object NodeManager {
   def apply(): Behavior[NodeCommand] = Behaviors.receive { (context, message) =>
     message match {
-      case GameMessages.CreateGame(gameId, players) =>
+      case CreateGame(gameId, players) =>
         val gameManager = context.spawn(GameManager(), s"gameManager-$gameId")
-        players.foreach(player => gameManager ! GameMessages.StartGame(Set(player)))
+        players.foreach(player => gameManager ! StartGame(Set(player)))
         Behaviors.same
 
-      case GameMessages.ShutdownNode =>
+      case ShutdownNode =>
         context.log.info("Node shutdown requested.")
         Behaviors.stopped
 

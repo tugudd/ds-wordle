@@ -1,4 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/kambarmirmanov/wordl/ds-score-storage/src/main/resources/logback.xml,/Users/kambarmirmanov/wordl/ds-score-storage/target/scala-2.13/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/kambarmirmanov/wordl/ds-score-storage/src/main/resources/wordlist.txt,/Users/kambarmirmanov/wordl/ds-score-storage/target/scala-2.13/classes/wordlist.txt)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/kambarmirmanov/wordl/ds-score-storage/src/main/resources/application.conf,/Users/kambarmirmanov/wordl/ds-score-storage/target/scala-2.13/classes/application.conf)[0m

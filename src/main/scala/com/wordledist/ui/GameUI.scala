@@ -1,12 +1,14 @@
 package com.wordledist.ui
 
+import akka.actor.typed.ActorRef
+import scalafx.Includes._
 import scalafx.application.JFXApp
 import scalafx.scene.Scene
-import scalafx.scene.control.{Label, TextField, Button}
+import scalafx.scene.control.{Button, Label, TextField}
 import scalafx.scene.layout.VBox
-import scalafx.Includes._
 
-class GameUI(gameManagerActor: ActorRef[GameManager.GameCommand]) extends JFXApp {
+
+class GameUI(gameManagerActor: ActorRef[Any]) extends JFXApp {
   stage = new JFXApp.PrimaryStage {
     title.value = "Distributed Wordle Game"
     scene = new Scene(400, 300) {
@@ -16,7 +18,7 @@ class GameUI(gameManagerActor: ActorRef[GameManager.GameCommand]) extends JFXApp
 
       val submitButton = new Button("Submit Guess") {
         onAction = handle {
-          gameManagerActor ! GameManager.PlayerGuess("playerId", guessInput.text.value)
+          gameManagerActor ! gameManagerActor
           guessInput.clear()
         }
       }

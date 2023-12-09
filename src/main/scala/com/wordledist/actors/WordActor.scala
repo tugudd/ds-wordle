@@ -1,9 +1,9 @@
 package com.wordledist.actors
 
-import akka.actor.typed.{Behavior, ActorRef}
+import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.Behaviors
+import com.wordledist.messages.{ValidateGuess, WordCommand}
 import com.wordledist.util.WordDictionary
-import com.wordledist.messages.GameMessages._
 
 object WordActor {
   def apply(): Behavior[WordCommand] = Behaviors.setup { context =>
@@ -14,7 +14,7 @@ object WordActor {
     Behaviors.receiveMessage {
       case ValidateGuess(playerId, guess) =>
         val result = guess.equalsIgnoreCase(targetWord)
-        sender() ! GuessResult(playerId, guess, result)
+        //        re ! GuessResult(playerId, guess, result)
         Behaviors.same
 
       case _ =>

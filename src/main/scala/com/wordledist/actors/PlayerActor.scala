@@ -2,7 +2,8 @@ package com.wordledist.actors
 
 import akka.actor.typed.{ActorRef, Behavior}
 import akka.actor.typed.scaladsl.Behaviors
-import com.wordledist.messages.GameMessages._
+import com.wordledist.messages.{GameCommand, GameOver, GuessFeedback, PlayerCommand, PlayerGuess, SubmitGuess, WordCommand}
+
 
 case class Player(id: String, name: String)
 

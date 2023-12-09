@@ -1,12 +1,12 @@
 package com.wordledist.ui
 
+import scalafx.collections.ObservableBuffer
 import scalafx.scene.control.{Label, ListView}
 import scalafx.scene.layout.VBox
-import scalafx.Includes._
 
 class PlayerUI(playerId: String) {
   val playerGuesses = new ListView[String] {
-    items = Seq()
+    items = new ObservableBuffer[String]()
   }
 
   val playerScore = new Label(s"Score: 0")
@@ -22,7 +22,7 @@ class PlayerUI(playerId: String) {
     )
   }
 
-  def updateGuesses(guesses: Seq[String]): Unit = {
+  def updateGuesses(guesses: ObservableBuffer[String]): Unit = {
     playerGuesses.items = guesses
   }
 
