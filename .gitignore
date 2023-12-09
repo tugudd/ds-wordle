@@ -2,3 +2,4 @@ target
 *.iml
 *.jar
 .bsp
+.DS_Store
