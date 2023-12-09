@@ -3,6 +3,7 @@
 ### Technologies
 - Scala
 - ScalaFX
+- Standard Build Tools a.k.a SBT
 
 
 ### Compile
